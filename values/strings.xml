@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">jnanagni 2k18</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="contact_form">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_email">Your Email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department...</string>
+    <string name="contact_posted">Your message has been successfully delivered.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cypher"><u><b>DESCRIPTION:</b></u>\n\n
+
+        ever came across the team "blind coading"?well this enthraling event would provide an opprrtunity to showcase your coading skills but in a diffreent way.\n
+
+      \n <b><u> TASK AND RULES::</u></b>\n\n
+
+        ROUND1:\na simple code with syntax error will given on paper
+        participants will correct and type code on monitor switched off.
+        base on result of first round 10 participnts selected for second round.\n\n
+
+       <u> ROUND2:</u>\nevery participants will given a problem
+        time will be 20min only based on programing skills top 3 will be selected.\n
+
+       <b><u> TIME AND VENUE::</u></b>\n\n
+
+        venue:computer lab\n
+        time:9:00am to 12:00pm\n\n
+
+        <b><u>JUDGEMENTAL CRITERIA::</u></b>\n\n
+
+        less time of execution with no error.
+        alogorithms and time compexity.\n
+
+        COordinator::sumit pandey
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

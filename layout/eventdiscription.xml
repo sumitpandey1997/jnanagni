@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/dialog_bg"
+    android:layout_width="match_parent">
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageV"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageV"
+        android:textColor="#000"
+        android:id="@+id/dtv"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER EVENT"
+        android:layout_below="@+id/dtv"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradeint"
+        android:id="@+id/Dbtn"/>
+
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

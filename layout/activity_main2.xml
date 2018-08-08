@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="0.8"
+    android:background="@drawable/gradient2"
+    tools:context="com.example.user.nevigation.Main2Activity">
+
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/btn"
+
+     >
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     >
+
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="first name"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="@drawable/border"
+        android:id="@+id/et1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="last name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="@drawable/border"
+        android:id="@+id/et2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="@drawable/border"
+        android:id="@+id/et3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="phone no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:background="@drawable/border"
+        android:id="@+id/et4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="password"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:inputType="numberPassword"
+        android:background="@drawable/border"
+        android:id="@+id/et5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6"
+        android:textColor="#fff"
+        android:text="re-type password"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:inputType="numberPassword"
+        android:background="@drawable/border"
+        android:id="@+id/et6"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/tv7"
+         android:textColor="#fff"
+         android:text="branch"
+         android:textSize="20dp"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:textColor="#000"
+         android:background="@drawable/border"
+         android:id="@+id/et7"/>
+ </LinearLayout>
+ </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btn"
+        android:text="register now"
+        android:textColor="#c73"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+
+
+</RelativeLayout>

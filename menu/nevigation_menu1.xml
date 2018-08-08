@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/a"
+        android:title="PRE-REGISTER"
+        android:icon="@drawable/register"
+        />
+    <item android:id="@+id/b"
+        android:title="HOME"
+        android:icon="@drawable/home"
+       />
+    <item android:id="@+id/c"
+        android:title="EVENTS"
+        android:icon="@drawable/overtime"
+        />
+    <item android:id="@+id/d"
+        android:title="LOCATION"
+        android:icon="@drawable/marker"
+        />
+    <item android:id="@+id/e"
+        android:title="FEEDBACK"
+        android:icon="@drawable/feedback"
+        />
+    <item android:id="@+id/f"
+        android:title="CONTACT US"
+        android:icon="@drawable/contacts"
+        />
+    <item android:id="@+id/g"
+        android:title="GALLERY"
+        android:icon="@drawable/picture"
+        />
+
+
+</menu>
